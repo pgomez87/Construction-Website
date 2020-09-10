@@ -1,0 +1,159 @@
+.botones{
+    border-radius: 18px;
+  }
+
+  .cursor {
+	cursor: pointer;
+}
+
+
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("../imagenes/hamburguer.svg");
+}
+
+/*Letras */
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.container-fluid{
+	margin-top: 30px;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+.palabimp{
+	font-weight: bold;
+	color: burlywood;
+}
+
+/*Fondos */
+.fondo1{
+	background-color: white;
+}
+.fondo2{
+	background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8) ), url(../imagenes/backtest.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	width: 100%;
+	overflow: hidden;
+	color: white;
+  }
+
+  .fondofooter{
+	background-color: lightgray;
+  }
+
+
+/*Redes*/
+.orden{
+	display: inline-block;
+	margin:0px 10px 0px 10px;
+  }
+  
+  div.redes:hover i::before {
+	transition: all 1s ease-in-out;
+	color:rgb(46, 45, 45);
+  }
+
+/*INDICADORES RADIOS CARRUSEL*/
+.carousel-indicators{
+	bottom: -10px;
+}
+.carousel-indicators li {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	margin: 10px;
+	text-indent: 0;
+	cursor: pointer;
+	border: none;
+	border-radius: 50%;
+	background-color: black;
+    box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, .6);
+    opacity: .6;
+}
+.carousel-indicators .active{
+	width: 20px;
+	height: 20px;
+	margin: 10px;
+	background-color: gray;
+}
+.carousel-indicators li:hover{
+	width: 20px;
+	height: 20px;
+	margin: 10px;
+    background-color: gray !important;
+}
+
+.carousel-item img{
+    opacity: .7;
+}
+
+.carousel-caption{
+    bottom: 220px;
+}
+
+.titulocarr{
+    color: black;
+    font-size: 50px;
+}
+
+
+/*Tamaño de flechas y fondo */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+	width: 40px;
+	height: 40px;
+}
+
+.carousel-control-next, .carousel-control-prev {
+opacity: 0.6;
+}
+
+
+.carousel-control-prev-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+.carousel-control-next-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+} 
+
+
+/*Scroll top */
+.go-top {
+	width: 75px;
+	position: fixed;
+	bottom: 1em;
+	right: 1em;
+	text-decoration: none;
+	padding: 1em;
+  }
+  
+  .go-top img:hover {
+	transform: scale(1.1);
+	transition: all 0.5s;
+  }
+  
+
+/*ocultar flechas e indicadores del carousel*/
+@media(max-width: 575px){
+	.carousel-control-prev-icon, .carousel-control-next-icon {
+		display: none;
+	}
+	.carousel-indicators{
+		display: none;
+	}
+}
+
+/*mapa google*/
+.google-maps {
+    width: 100% !important;
+}
+@media (max-width: 575px){
+   .google-maps iframe{
+      width: 100% !important;
+      height:400px !important;
+    }  
+}

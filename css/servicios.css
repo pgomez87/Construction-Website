@@ -1,0 +1,15 @@
+
+.fondoser{
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6) ), url(../imagenes/backubi.jpg);
+	background-size: cover;
+	width: 100%;
+	overflow: hidden;
+    color: white;
+    height: 50vh;
+    
+}
+
+.fondoser2{
+    background-color: white;
+    color: black;
+}

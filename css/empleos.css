@@ -1,0 +1,38 @@
+.fondoemp{
+	background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6) ), url(../imagenes/empleos.jpg);
+
+	background-size: cover;
+	width: 100%;
+	overflow: hidden;
+    color: white;
+    height: 50vh;
+  }
+
+
+  .fondoemp2{
+	background-color: white;
+	color: black;
+  }
+
+.formlink{
+    padding-top: 100px;
+}
+
+  /*Tarjetas acordion*/
+.card{
+    width: 90% !important;
+    margin: 0 auto;
+  }
+
+  @media (max-width: 575px){
+    /*tarjetas espacio abajo*/
+    .espaciocard{
+      padding-bottom: 50px;
+    }
+    /*acordeon tamaño*/
+    .card{
+      width: 70% !important;
+      margin: 0 auto;
+    }
+  }
+  
